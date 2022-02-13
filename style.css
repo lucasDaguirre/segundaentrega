@@ -1,0 +1,94 @@
+body{
+    background-color: #3029ac;
+    background-image: linear-gradient(360deg, #1f1f3d 0%, #352047 80%, #352047 100%);
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+svg{
+    display: block;
+}
+
+.row{
+    height: 100%;
+}
+
+.navbar{
+    height: 5rem;
+    width: 100%;
+    background-color: #352047;
+    border-bottom: #4e265c 1px solid;
+}
+
+.navbar-brand{
+    height: 5rem;
+}
+
+.navbar-brand img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-hero{
+    overflow: hidden;
+}
+
+.hero-img img{
+    height: 80%;
+}
+
+.caca{
+    background-color: #171224;
+    z-index: 10;
+}
+
+.img-wrapper{
+    height: 40rem;
+}
+
+.img-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pulso{
+    transform: scale(1);
+	animation: agrandar 6s infinite;
+    animation-fill-mode: forwards;
+
+}
+
+.slide-izq{
+	animation: slide-l 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes agrandar {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+}
+
+@keyframes slide-l {
+	0% {
+		transform: translateX(-100%);
+        opacity: 0;
+	}
+
+	100% {
+		transform: translateX(0%);
+        opacity: 1;
+	}
+}
+
+
