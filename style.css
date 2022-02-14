@@ -8,10 +8,6 @@ li{
     list-style: none;
 }
 
-svg{
-    display: block;
-}
-
 .row{
     height: 100%;
 }
@@ -41,9 +37,8 @@ svg{
     height: 80%;
 }
 
-.caca{
+.simple{
     background-color: #171224;
-    z-index: 10;
 }
 
 .img-wrapper{
@@ -54,6 +49,15 @@ svg{
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+.accordion button{
+    background-color: #00000000;
+}
+
+.newsletter{
+    background-color: #171224;
+    border-radius: 50px;
 }
 
 .pulso{
@@ -68,6 +72,9 @@ svg{
     animation-fill-mode: forwards;
 }
 
+.img-wrapper:hover{
+    scale: 0.5;
+}
 
 @keyframes agrandar {
 	0% {
